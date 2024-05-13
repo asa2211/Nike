@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    padding: 23px 14px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18, 75px;
+    transition: 3s;
+}
+
+.nav__link:hover {
+    background-color: #fff;
+    color: #D47300;
+}
+
+.header__content {
+    background: url("../image/nike.jpg") no-repeat center/cover;
+    height: 700px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 50px;
+    line-height: 58px;
+    margin-bottom: 15px;
+}
+
+.header__text {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header__text>span {
+    font-weight: 700;
+}
+
+.products__item {
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.products {
+    background: #EBEBEB;
+}
+
+.products__left>.products__item {
+    width: 540px;
+    height: 100%;
+}
+
+.products__right>.products__item {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products__right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.products__content {
+    display: flex;
+    column-gap: 30px;
+    transform: translateY(-40px);
+}
+.products__title{
+    font-size: 22px;
+    line-height: 25px;
+    margin: 12px 0;
+}
+.products__text{
+    font-size: 16px;
+    line-height: 18px;
+    color: #9B9B9B;
+}
+.footer{
+    background: #322E41;
+    padding: 47px 0;
+    color: #fff;
+}
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    row-gap: 10px;
+}
+.footer__text,
+.footer__input{
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    font-family: Roboto;
+    outline: none;
+    font-size: 16px;
+    line-height: 13px;
+}
+.footer__text{
+    height: 86px;
+    resize: none;
+}
+.footer__button{
+    background: #544294;
+    padding: 6px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 13px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.footer>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list{
+    display: flex;
+    column-gap: 60px;
+}
+.footer__list>ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #fff;
+}
+.footer__link{
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+}
+.footer__link:hover{
+    color: #D47300;
+}
+.footer__icons{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
